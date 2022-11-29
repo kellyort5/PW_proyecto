@@ -1,0 +1,86 @@
+.contnedor_todo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.frmulario_login li{
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    font-size: 14px;
+    background: #adc8e2;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+
+
+.frmulario_login li:hover{
+    background:  #46A2FD;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.contnedor_login-register{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 580px;
+    position: relative;
+    top: 130px;
+    left: 130px;
+}
+
+.contnedor_login-register form{
+    width: 100%;
+    padding: 80px 20px;
+    background: white;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.contnedor_login-register form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #46A2FD;
+}
+
+.contnedor_login-register form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+}
+
+.contnedor_login-register form li{
+    padding: 10px 4px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+
+.frmulario_login{
+    opacity: 1;
+    display: block;
+}
+
+@media screen and (max-width: 850px){
+
+    .contnedor_login-register{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+    }
+
+    .contnedor_login-register form{
+        position: relative;
+    }
+}

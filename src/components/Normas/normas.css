@@ -1,0 +1,57 @@
+.contnedor_tod{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+
+.contnedor_login-registe{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 580px;
+    position: relative;
+    top: 130px;
+    left: 130px;
+}
+
+.contnedor_login-registe form{
+    width: 100%;
+    padding: 80px 20px;
+    background: white;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.contnedor_login-registe form h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #46A2FD;
+}
+
+.contnedor_login-registe form p{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgba(11, 5, 92, 0.849);
+}
+
+.frmulario_logi{
+    opacity: 1;
+    display: block;
+}
+
+@media screen and (max-width: 850px){
+
+    .contnedor_login-registe{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+    }
+
+    .contnedor_login-registe form{
+        position: relative;
+    }
+}
